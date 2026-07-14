@@ -1,0 +1,54 @@
+# Rebuilds the distribution PDFs whenever the Bible text changes.
+#
+# Triggers on any push that touches chapter YAML or the compiler, and can be
+# run manually from the Actions tab. PDFs are byte-reproducible for identical
+# text (no embedded timestamps), so "nothing changed" produces no commit.
+
+name: Build PDFs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "**/*.yaml"
+      - "compiler/**"
+      - ".github/workflows/build-pdfs.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-pdfs
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Typst
+        run: |
+          mkdir -p "$HOME/.local/bin"
+          curl -sL https://github.com/typst/typst/releases/download/v0.15.0/typst-x86_64-unknown-linux-musl.tar.xz \
+            | tar -xJ --strip-components=1 -C "$HOME/.local/bin"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: Install Python dependencies
+        run: pip install pyyaml
+
+      - name: Build all distribution PDFs
+        run: python3 compiler/build.py --publish
+
+      - name: Commit updated PDFs
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Text unchanged — nothing to commit."
+          else
+            git commit -m "Rebuild PDFs from latest text [skip ci]"
+            git push
+          fi
