@@ -20,6 +20,7 @@
 | पुस्तक | Book | पढ़ें / Read | सभी PDF / All PDFs |
 |---|---|---|---|
 | मत्ती | Matthew | [📖 PDF](Matthew/Matthew-Standard.pdf) | [📂 खोलें / open](Matthew/) |
+| यूहन्ना | John | [📖 PDF](John/John-Standard.pdf) | [📂 खोलें / open](John/) |
 | यहूदा | Jude | [📖 PDF](Jude/Jude-Standard.pdf) | [📂 खोलें / open](Jude/) |
 | पूरी बाइबिल (अब तक की) | Complete Bible (all so far) | [📖 PDF](Complete-Bible/Hindi-Bible-Standard.pdf) | [📂 खोलें / open](Complete-Bible/) |
 <!-- BOOKS:END -->
