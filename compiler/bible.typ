@@ -29,9 +29,11 @@
 }
 
 #let render(data, cfg) = {
-  // date: none keeps PDFs byte-identical across same-text rebuilds (no embedded
-  // timestamp) — required so CI can detect "nothing changed" and skip commits.
-  set document(title: data.title, author: "PrimeBible", date: none)
+  // Day-granular date (no time): PDF/A requires a document date, and date-only
+  // keeps same-day rebuilds byte-identical so CI can skip no-change commits.
+  set document(title: data.title, author: "PrimeBible", date: datetime(
+    year: int(data.date.y), month: int(data.date.m), day: int(data.date.d),
+  ))
   set text(font: cfg.body_font, size: cfg.font_size, lang: "hi")
   set par(justify: cfg.justify, leading: cfg.leading, spacing: cfg.par_spacing)
 

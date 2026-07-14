@@ -355,6 +355,12 @@ def compile_date():
     return f"{hindi} / {d.strftime('%#d %B %Y') if sys.platform == 'win32' else d.strftime('%-d %B %Y')}"
 
 
+def date_fields():
+    """Day-granular date for the PDF's document metadata (PDF/A requires one)."""
+    d = datetime.date.today()
+    return {"y": d.year, "m": d.month, "d": d.day}
+
+
 def write_data(books):
     """Content is edition-independent — write it once, shared by every edition."""
     version = content_version(books)
@@ -365,6 +371,7 @@ def write_data(books):
         "subtitle": "आधुनिक हिन्दी अनुवाद",
         "version": version,
         "compiled": compiled,
+        "date": date_fields(),
         "attribution": ATTRIBUTION,
         "books": books,
     }
@@ -404,6 +411,7 @@ def build(profile, large=False, *, data_ref="/build/data.json",
         subprocess.run(
             ["typst", "compile", "--root", str(ROOT),
              "--font-path", str(FONTS), "--ignore-system-fonts",
+             "--pdf-standard", "a-2b",
              str(main_file), str(pdf)],
             check=True,
         )
@@ -431,6 +439,7 @@ def publish(books):
             "subtitle": "आधुनिक हिन्दी अनुवाद",
             "version": content_version([book]),
             "compiled": compile_date(),
+            "date": date_fields(),
             "attribution": ATTRIBUTION,
             "books": [book],
         }
