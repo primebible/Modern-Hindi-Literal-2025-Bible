@@ -1,0 +1,165 @@
+# Translation base: SBLGNT
+# Source commit: c4d241a9c1c479a55b989ba35a4976c1d0b8052c
+# English lines beginning with # are legal YAML comments and are ignored by YAML parsers.
+- book: "यूहन्ना"
+  chapter: 1
+  verses:
+    - verse: 1
+      text: "आरंभ में वचन था, और वचन परमेश्वर के साथ था, और वचन परमेश्वर था।"
+      # Note: The final clause has the predicate "God" before the verb. It identifies what the Word was; it does not read "a god."
+    - verse: 2
+      text: "वही आरंभ में परमेश्वर के साथ था।"
+    - verse: 3
+      text: "सब कुछ उसी के द्वारा अस्तित्व में आया, और जो कुछ अस्तित्व में आया है, उसमें से एक भी वस्तु उसके बिना अस्तित्व में नहीं आई।"
+      # Note: The punctuation of "what has come into being" is ancient and disputed.
+      # The main text attaches it to verse 3; SBLGNT punctuation allows it to begin the thought continued in verse 4.
+      # Greek ginomai is rendered "came into existence," not the passive "was made."
+    - verse: 4
+      text: "उसमें जीवन था, और वह जीवन मनुष्यों का प्रकाश था।"
+    - verse: 5
+      text: "प्रकाश अंधकार में चमकता है, और अंधकार ने उस पर विजय नहीं पाई।"
+      # Note: Greek katelaben can mean "overcame/seized" or "understood/grasped."
+      # The main text follows the conflict image, "did not overcome."
+      # The Greek is a bare aorist statement; no ability modal such as "could not" is present.
+    - verse: 6
+      text: "एक मनुष्य आया, जिसे परमेश्वर ने भेजा था; उसका नाम यूहन्ना था।"
+    - verse: 7
+      text: "वह गवाही देने आया, ताकि प्रकाश के विषय में गवाही दे और उसके द्वारा सब लोग विश्वास करें।"
+    - verse: 8
+      text: "वह स्वयं प्रकाश नहीं था, बल्कि प्रकाश के विषय में गवाही देने आया था।"
+      # Note: Greek does not repeat "was sent" in this verse; it says only that John was not the light but came to testify.
+    - verse: 9
+      text: "सच्चा प्रकाश, जो हर मनुष्य को प्रकाशित करता है, संसार में आ रहा था।"
+      # Note: The participle "coming into the world" can modify the true light or every person.
+      # The main text reads the true light as the one coming into the world.
+    - verse: 10
+      text: "वह संसार में था, संसार उसी के द्वारा अस्तित्व में आया, फिर भी संसार ने उसे नहीं जाना।"
+      # Note: John uses his recurring verb "to know." "Did not know him" is retained rather than softened to "did not recognize him."
+    - verse: 11
+      text: "वह अपने ही घर आया, लेकिन उसके अपने लोगों ने उसे ग्रहण नहीं किया।"
+      # Note: Greek shifts from neuter "his own things/home" to masculine "his own people."
+      # The Hindi pair "his own home / his own people" preserves that contrast naturally.
+    - verse: 12
+      text: "लेकिन जितनों ने उसे ग्रहण किया, उसने उन्हें परमेश्वर की संतान बनने का अधिकार दिया, अर्थात उन्हें जो उसके नाम पर विश्वास करते हैं।"
+    - verse: 13
+      text: "वे न लहू से, न शरीर की इच्छा से, न पुरुष की इच्छा से, बल्कि परमेश्वर से जन्मे।"
+      # Note: Greek has plural "bloods" and uses andros, "male/man," in the third phrase.
+      # Natural Hindi uses singular "blood" but preserves the distinct "will of a man."
+    - verse: 14
+      text: "वचन देह बना और हमारे बीच अपना डेरा लगाया। हमने उसकी महिमा देखी, ऐसी महिमा जैसी पिता के एकलौते की होती है। वह अनुग्रह और सत्य से परिपूर्ण था।"
+      # Note: Greek eskenosen literally means "pitched his tent" or "tabernacled"; the tent image is retained.
+      # Monogenes is used substantivally here and the Greek does not supply the noun "son."
+      # Hindi "the Father's only one" preserves the missing noun while the Father-language keeps the filial sense clear.
+    - verse: 15
+      text: "यूहन्ना उसके विषय में गवाही देता है और पुकारकर कहता है, \"यह वही है जिसके विषय में मैंने कहा था, 'जो मेरे पीछे आता है, वह मुझसे आगे हो गया है, क्योंकि वह मुझसे पहले था।'\""
+      # Note: "Has become ahead of me" can express rank, priority, or preeminence.
+      # The reason clause, "because he was before me," explicitly points to prior existence.
+    - verse: 16
+      text: "क्योंकि उसकी परिपूर्णता में से हम सबने पाया, अनुग्रह पर अनुग्रह।"
+      # Note: charin anti charitos can mean "grace upon grace" or "grace in place of grace."
+      # The main text keeps the established "grace upon grace" rendering.
+    - verse: 17
+      text: "क्योंकि व्यवस्था मूसा के द्वारा दी गई; अनुग्रह और सत्य यीशु मसीह के द्वारा आए।"
+      # Note: John contrasts the Law "was given" through Moses with grace and truth "came" through Jesus Christ.
+    - verse: 18
+      text: "परमेश्वर को किसी ने कभी नहीं देखा। एकमात्र परमेश्वर, जो पिता की गोद में है, उसी ने परमेश्वर को प्रकट किया है।"
+      # Text note: SBLGNT, Westcott-Hort, Tregelles, and NA28 read "the only God."
+      # The majority text reads "the only Son." The main text follows SBLGNT.
+    - verse: 19
+      text: "यूहन्ना की गवाही यह है: जब यहूदियों ने यरूशलेम से याजकों और लेवियों को भेजा कि वे उससे पूछें, \"तुम कौन हो?\""
+    - verse: 20
+      text: "उसने स्वीकार किया और इनकार नहीं किया; उसने स्वीकार किया, \"मैं मसीह नहीं हूँ।\""
+      # Note: The repeated "confessed ... did not deny ... confessed" is deliberate and is not stylistic redundancy.
+    - verse: 21
+      text: "उन्होंने उससे पूछा, \"तो फिर? क्या तुम एलिय्याह हो?\" उसने कहा, \"मैं नहीं हूँ।\" उन्होंने पूछा, \"क्या तुम वह भविष्यवक्ता हो?\" उसने उत्तर दिया, \"नहीं।\""
+    - verse: 22
+      text: "तब उन्होंने उससे कहा, \"तुम कौन हो? हमें उन लोगों को उत्तर देना है जिन्होंने हमें भेजा है। तुम अपने विषय में क्या कहते हो?\""
+    - verse: 23
+      text: "उसने कहा, \"मैं निर्जन प्रदेश में पुकारने वाले की आवाज हूँ: 'प्रभु का मार्ग सीधा करो,' जैसा भविष्यवक्ता यशायाह ने कहा था।\""
+      # Note: John applies Isaiah 40:3 to himself as the voice, not as the Lord whose way is prepared.
+    - verse: 24
+      text: "भेजे गए लोग फरीसियों में से थे।"
+    - verse: 25
+      text: "उन्होंने उससे पूछा, \"यदि तुम न तो मसीह हो, न एलिय्याह और न वह भविष्यवक्ता, तो फिर बपतिस्मा क्यों देते हो?\""
+    - verse: 26
+      text: "यूहन्ना ने उन्हें उत्तर दिया, \"मैं पानी से बपतिस्मा देता हूँ। तुम्हारे बीच एक व्यक्ति खड़ा है, जिसे तुम नहीं जानते।"
+      # Cross-book note: Greek en hydati can be locative or instrumental.
+      # The corpus uses "with water" (पानी से) in the Baptist's formula here and in Matthew 3:11.
+    - verse: 27
+      text: "वह मेरे पीछे आने वाला है; मैं उसकी चप्पल का पट्टा खोलने योग्य भी नहीं हूँ।\""
+      # Text note: SBLGNT, Westcott-Hort, Tregelles, and NA28 omit "who has become ahead of me."
+      # The majority text adds that clause here from the related saying in verses 15 and 30.
+    - verse: 28
+      text: "ये बातें यर्दन के पार बैतनिया में हुईं, जहाँ यूहन्ना बपतिस्मा दे रहा था।"
+      # Note: This Bethany beyond the Jordan is distinct from the Bethany near Jerusalem mentioned later in John.
+    - verse: 29
+      text: "अगले दिन उसने यीशु को अपनी ओर आते देखा और कहा, \"देखो, परमेश्वर का मेम्ना, जो संसार का पाप उठा ले जाता है!"
+      # Note: Greek airo can mean "take away" and can also carry the image of bearing or carrying.
+      # The Hindi "takes up and carries away" leaves both sacrificial and removal imagery available.
+    - verse: 30
+      text: "यह वही है जिसके विषय में मैंने कहा था, 'मेरे पीछे एक मनुष्य आता है, जो मुझसे आगे हो गया है, क्योंकि वह मुझसे पहले था।'"
+    - verse: 31
+      text: "मैं उसे नहीं जानता था, लेकिन वह इस्राएल के सामने प्रकट हो, इसीलिए मैं पानी से बपतिस्मा देता हुआ आया।\""
+      # Note: Greek says Jesus is revealed "to Israel." "Before Israel" is natural Hindi for that dative relationship.
+    - verse: 32
+      text: "यूहन्ना ने यह गवाही दी, \"मैंने आत्मा को कबूतर की तरह आकाश से उतरते देखा, और वह उस पर ठहरी रही।"
+      # Note: The verb meno, "remain/stay," begins John's major abiding word family.
+      # John 1:32-33 and 1:38-39 all use the Hindi root ठहरना so the repeated Greek verb is audible.
+      # The visible descent is rendered with आकाश; John 1:51 uses स्वर्ग for the opened divine realm.
+    - verse: 33
+      text: "मैं उसे नहीं जानता था, लेकिन जिसने मुझे पानी से बपतिस्मा देने के लिए भेजा, उसी ने मुझसे कहा, 'जिस पर तुम आत्मा को उतरते और ठहरते देखोगे, वही पवित्र आत्मा में बपतिस्मा देने वाला है।'"
+      # Note: "Descending and remaining" repeats the same meno root used in verses 32, 38, and 39.
+    - verse: 34
+      text: "मैंने देखा है और गवाही दी है कि यही परमेश्वर का चुना हुआ है।\""
+      # Major text note: SBLGNT reads "the Chosen One of God."
+      # Westcott-Hort, Tregelles, NA28, and the majority text read "the Son of God."
+    - verse: 35
+      text: "अगले दिन यूहन्ना फिर अपने दो चेलों के साथ खड़ा था।"
+    - verse: 36
+      text: "उसने यीशु को चलते हुए देखकर कहा, \"देखो, परमेश्वर का मेम्ना!\""
+    - verse: 37
+      text: "उन दोनों चेलों ने उसे यह कहते सुना और वे यीशु के पीछे हो लिए।"
+    - verse: 38
+      text: "यीशु ने मुड़कर उन्हें अपने पीछे आते देखा और पूछा, \"तुम क्या खोज रहे हो?\" उन्होंने उससे कहा, \"रब्बी (जिसका अर्थ है 'गुरु'), आप कहाँ ठहरे हैं?\""
+      # Note: John translates the Aramaic title Rabbi for his readers.
+      # The question "Where are you staying?" uses meno, the same verb used for the Spirit remaining on Jesus.
+    - verse: 39
+      text: "उसने उनसे कहा, \"आओ, और तुम देखोगे।\" वे गए, उन्होंने देखा कि वह कहाँ ठहरा था, और उस दिन उसके साथ ठहरे। उस समय लगभग दसवाँ घंटा था।"
+      # Text note: SBLGNT, Westcott-Hort, Tregelles, and NA28 read "Come, and you will see."
+      # The majority text reads the imperative "Come and see." The main text follows SBLGNT.
+      # The two uses of ठहरना continue the meno word family introduced with the Spirit in verses 32-33.
+      # The tenth hour may be reckoned under different ancient time systems; the main text does not convert it to a modern clock time.
+    - verse: 40
+      text: "उन दोनों में से एक, जिसने यूहन्ना की बात सुनकर यीशु के पीछे हो लिया था, शमौन पतरस का भाई अन्द्रियास था।"
+      # Note: Greek akoloutheo is rendered with the Hindi पीछे family in verses 37, 40, and 43.
+      # The Sanskritic अनुसरण was removed so the same discipleship verb remains audible within the scene.
+    - verse: 41
+      text: "उसने पहले अपने भाई शमौन को ढूँढ़ा और उससे कहा, \"हमें मसीहा मिल गया है\" (जिसका अर्थ है 'मसीह')।"
+      # Note: John explicitly translates the Aramaic "Messiah" with the Greek title "Christ."
+    - verse: 42
+      text: "वह उसे यीशु के पास लाया। यीशु ने उस पर दृष्टि डालकर कहा, \"तुम यूहन्ना के पुत्र शमौन हो। तुम कैफा कहलाओगे\" (जिसका अर्थ है 'पतरस')।"
+      # Major text note: SBLGNT, Westcott-Hort, Tregelles, and NA28 read "Simon, son of John."
+      # The majority text reads "son of Jonah." The main text follows SBLGNT.
+    - verse: 43
+      text: "अगले दिन यीशु ने गलील जाने का निश्चय किया। उसने फिलिप्पुस को पाया और उससे कहा, \"मेरे पीछे आओ।\""
+    - verse: 44
+      text: "फिलिप्पुस बैतसैदा का निवासी था, जो अन्द्रियास और पतरस का नगर था।"
+    - verse: 45
+      text: "फिलिप्पुस ने नतनएल को पाया और उससे कहा, \"जिसके विषय में मूसा ने व्यवस्था में और भविष्यवक्ताओं ने लिखा था, वह हमें मिल गया है: यूसुफ का पुत्र, नासरत का यीशु।\""
+    - verse: 46
+      text: "नतनएल ने उससे कहा, \"क्या नासरत से कुछ अच्छा हो सकता है?\" फिलिप्पुस ने उससे कहा, \"आओ और देखो।\""
+    - verse: 47
+      text: "यीशु ने नतनएल को अपनी ओर आते देखा और उसके विषय में कहा, \"देखो, सचमुच एक इस्राएली, जिसमें कोई छल नहीं है!\""
+      # Note: The description of an Israelite without deceit may evoke Jacob/Israel, but the allusion is left implicit.
+    - verse: 48
+      text: "नतनएल ने उससे कहा, \"आप मुझे कहाँ से जानते हैं?\" यीशु ने उत्तर दिया, \"फिलिप्पुस के तुम्हें बुलाने से पहले, जब तुम अंजीर के पेड़ के नीचे थे, मैंने तुम्हें देखा था।\""
+    - verse: 49
+      text: "नतनएल ने उसे उत्तर दिया, \"रब्बी, आप परमेश्वर के पुत्र हैं! आप इस्राएल के राजा हैं!\""
+    - verse: 50
+      text: "यीशु ने उसे उत्तर दिया, \"क्या तुम इसलिए विश्वास करते हो कि मैंने तुमसे कहा, 'मैंने तुम्हें अंजीर के पेड़ के नीचे देखा था'? तुम इनसे भी बड़ी बातें देखोगे।\""
+    - verse: 51
+      text: "फिर उसने उससे कहा, \"मैं तुम सब से सच-सच कहता हूँ: तुम स्वर्ग को खुला हुआ और परमेश्वर के स्वर्गदूतों को मनुष्य के पुत्र के ऊपर चढ़ते और उतरते देखोगे।\""
+      # Text note: SBLGNT, Westcott-Hort, Tregelles, and NA28 omit "from now on"; the majority text adds it.
+      # The pronoun shifts to plural "you all," widening the promise beyond Nathanael.
+      # The ascending and descending angels evoke Jacob's ladder, now centered on the Son of Man.
+      # Corpus policy: οὐρανός is rendered आकाश for visible spatial sky scenes and स्वर्ग when the divine realm is foregrounded.
