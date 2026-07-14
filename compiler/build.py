@@ -411,7 +411,7 @@ def build(profile, large=False, *, data_ref="/build/data.json",
         subprocess.run(
             ["typst", "compile", "--root", str(ROOT),
              "--font-path", str(FONTS), "--ignore-system-fonts",
-             "--pdf-standard", "a-2b",
+             "--pdf-standard", "a-1b",
              str(main_file), str(pdf)],
             check=True,
         )
